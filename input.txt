@@ -1,0 +1,48 @@
+a=1;
+b=2;
+c=3;
+d=4;
+e=12;
+f=6;
+
+a = b + c*d + e/f;
+
+print a;
+
+if(a>0)
+{
+	print b;
+	if(a+b<20)
+	{
+		print e;
+	}
+	else
+	{
+		print f;
+	}
+}
+else
+{
+	print c;
+}
+
+while(a>0)
+{
+	a=a-4;
+	print a;
+}
+
+
+while(a<=16)
+{
+	b=3;
+	while(b>0)
+	{
+		b=b-1;
+		print b;
+	}
+	a = a + 4;
+	print a;
+}
+
+quit
